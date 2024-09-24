@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  min-height: 100vh;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.887);
+  display: flex;
+  flex-direction: column;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: #c4c9cb;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+
+.official-logo {
+  padding-left: 30px;
+  height: 50px;
+  width: auto;
+}
+
+.navbar a {
+  color: rgb(4, 61, 52);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold; 
+  margin-left: 2.5rem;
+}
+
+.navbar a:hover {
+  background-color: transparent;
+  color: green;
+  }
+
+.nav-link:active {
+  color: orange;
+  background-color: green;
+  border-radius: 2px;
+}
+
+.align-items-center{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  object-fit: contain;
+}
+.banners{
+  width: 100%;
+  height: 400px;
+}
+.cover {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 400px;
+
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+}
+.text-center h3 {
+  font-weight: bold;
+  color: rgb(4, 61, 52);
+  margin: 30px;
+}
+
+ .wrapper {
+    display:flex;
+    gap: 10px;
+    margin: 50px;
+  }
+  .wrapper img,
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+.card-title h6 {
+  font-weight: bold;
+  color: rgb(4, 61, 21);
+  text-align: center;
+  padding: 5px;  
+}
+.grid-items p {
+  text-align: center;
+  background-color: #c4c9cb;
+}
+.image-container {
+  display: flex;
+  justify-content:space-around;
+  align-items: center; 
+  margin: 10px;
+}
+.image-container img {
+width: 100%;
+padding: 5px;
+}
+.contact-form {
+  width: 100;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+background:  #c4c9cb;
+display: flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 90%;
+max-width: 600px;
+border-radius: 1px;
+}
+form h5 {
+  color: rgb(4, 61, 52);
+  font-weight: bold;
+}
+.form-element {
+  border: 0px;
+  margin: 2px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: transparent;
+  color: rgb(4, 61, 52);
+  padding: 15px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #c4c9cb;
+  padding: 20px;
+  margin: 0px;
+}
+.flex-container a {
+  color: rgb(4, 61, 52);
+  text-decoration: none;
+  padding: 0px;
+  display: block;
+  font-size: 14px;
+  font-weight: bold; 
+}
+.flex-container a:hover {
+  background-color: transparent;
+  color: green;
+  }
+.social-media {
+  height: 15px;
+  width: 15px;
+}
+.partners-logo {
+  height: 25px;
+  width: 100px;
+}
+#copyright {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(4, 61, 52);
+  text-align: center;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+
+  body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+    flex-grow: 1;
+  }
+  .header {
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  } 
+  .navbar {
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+    text-align: center;
+  }
+  .navbar a {
+    display: inline;
+    padding: 5px;
+  }
+  input [type="email"] {
+        font-size: 14px;
+    }
+  .wrapper {
+    width: 100%;
+    display: inline;
+    flex-direction: row;
+  }
+
+  .photo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center; 
+}
+  .flex-container {
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+.flex-container a {
+  padding: 5px;
+ }
+}
+
+ @media only screen and (min-width: 577px) and (max-width: 768px) {
+
+ }
+
+
