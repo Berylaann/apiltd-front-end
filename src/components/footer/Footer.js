@@ -3,7 +3,7 @@ function Footer() {
     <footer>
       <div class="flex-container">
         <div class="flex-items">
-          <a href="">
+          <a href="index.html">
             <img
               src="/images/logo.png"
               alt="official logo"
@@ -25,15 +25,15 @@ function Footer() {
               class="social-media"
               src="/images/apiltd_fb.png"
               alt="find us on facebook"
-            />{" "}
-            apiltd{" "}
+            />
+            apiltd
           </a>
           <a href="https://www.linkedin.com/company/apiltd/">
             <img
               class="social-media"
               src="/images/apiltd_linkedin.png"
               alt="find us on linkedin"
-            />{" "}
+            />
             accesspharmainternational
           </a>
         </div>
